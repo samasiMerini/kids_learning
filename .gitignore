@@ -73,4 +73,5 @@ crashlytics-build.properties
 
 /Library/*
 /[Aa]ssets/Editor/Migration/*
-/[Aa]ssets/Resources/VuforiaConfiguration.asset
+/[Aa]ssets/Resources/*
+/[Aa]ssets/StreamingAssets
