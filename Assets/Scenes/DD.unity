@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!21 &162049647
+--- !u!21 &184578284
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -132,7 +132,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'FroGgMaterial
 
-    71524'
+    97420'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -145,20 +145,20 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: eec39d0f52154c8f97b88f81c39d1e38, type: 3}
+        m_Texture: {fileID: 2800000, guid: a785cd87620146669c3ab9ec0dcd3a3c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
   m_BuildTextureStacks: []
---- !u!43 &269138675
+--- !u!43 &410397446
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh71514
+  m_Name: ImageTargetMesh97410
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -170,7 +170,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 256, y: 0, z: 256}
+      m_Extent: {x: 50, y: 0, z: 50}
   m_Shapes:
     vertices: []
     shapes: []
@@ -249,7 +249,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000080c300000000000080c3000000000000803f000000000000000000000000000080c30000000000008043000000000000803f00000000000000000000803f0000804300000000000080c3000000000000803f000000000000803f00000000000080430000000000008043000000000000803f000000000000803f0000803f
+    _typelessdata: 000048c200000000000048c2000000000000803f000000000000000000000000000048c20000000000004842000000000000803f00000000000000000000803f0000484200000000000048c2000000000000803f000000000000803f00000000000048420000000000004842000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -396,6 +396,18 @@ PrefabInstance:
     - target: {fileID: 4802874124678186, guid: c845b5210fa3487479dcff61d8a135dd, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802874124678186, guid: c845b5210fa3487479dcff61d8a135dd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802874124678186, guid: c845b5210fa3487479dcff61d8a135dd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802874124678186, guid: c845b5210fa3487479dcff61d8a135dd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4802874124678186, guid: c845b5210fa3487479dcff61d8a135dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -632,7 +644,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962079002}
-  m_Mesh: {fileID: 269138675}
+  m_Mesh: {fileID: 410397446}
 --- !u!23 &962079004
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -652,7 +664,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 162049647}
+  - {fileID: 184578284}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -722,8 +734,8 @@ MonoBehaviour:
   mDataSetPath: Vuforia/alphabet.xml
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 512
-  mHeight: 512
+  mWidth: 100
+  mHeight: 100
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
 --- !u!4 &962079008
