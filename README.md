@@ -9,6 +9,8 @@ kids_learning is a Unity application whenn kids can learn arabic alphabet.
 - The game was tested on Android, but one should be able to port it to other platforms too.
 - [vuforia plugin](https://library.vuforia.com/getting-started/getting-started-vuforia-engine-unity)
 
+![.github/images/kids_learning.png](.github/images/kids_learning.png)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
